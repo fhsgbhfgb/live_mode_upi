@@ -27,8 +27,8 @@ CORS(app)  # Enable CORS for HTML to communicate with this server
 # ============= RAZORPAY CONFIGURATION =============
 # IMPORTANT: Replace these with your actual Razorpay credentials
 # Get them from: https://dashboard.razorpay.com/app/keys
-RAZORPAY_KEY_ID = os.getenv('RAZORPAY_KEY_ID')          #linve mode key id
-RAZORPAY_KEY_SECRET = os.getenv('RAZORPAY_KEY_SECRET')  #live mode secret id
+RAZORPAY_KEY_ID = ""          #linve mode key id
+RAZORPAY_KEY_SECRET = ""  #live mode secret id
 
 # For testing, use test keys:
 # RAZORPAY_KEY_ID = "rzp_test_YOUR_TEST_KEY"
